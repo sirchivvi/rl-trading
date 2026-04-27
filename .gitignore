@@ -1,18 +1,22 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-.env
+*.pyc
+
+# Virtual environments
 venv/
-env/
+.env
 
 # Results & models
-results/*.pth
-results/*.png
+results/
+*.pth
+*.png
 
-# Jupyter
+# Jupyter / Colab
 .ipynb_checkpoints/
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# Editor
+.vscode/
